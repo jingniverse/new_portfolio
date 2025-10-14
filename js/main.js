@@ -11,7 +11,7 @@ $(document).ready(function(){
         $('.fa-close').addClass('off')
         $('.fa-bars').removeClass('off')
     })
-    $('nav>ul li a').click(function(){
+    $('nav > ul li a').click(function(){
         $('nav').removeClass('on')
         $('.fa-close').addClass('off')
         $('.fa-bars').removeClass('off')

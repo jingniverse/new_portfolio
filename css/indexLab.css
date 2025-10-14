@@ -1,14 +1,14 @@
 @media all and (min-width:1024px) and (max-width:1440px) { 
  section>article { width: 1000px; } 
- .page1 p { width: 800px; font-size: 80px; line-height:80px; } 
- .page2_wrap { flex-flow: wrap; } 
- .page2 .pic { height: 500px; } 
- .page2_wrap div+div { margin-left: 0; } 
- .sentence { width:100%; top: 120px; } 
+ .page_01 p { width: 800px; font-size: 80px; line-height:80px; } 
+ .page_wrap { flex-flow: wrap; gap: 30px 0;} 
+ .page_02 .pic { height: 500px; } 
+ .page_wrap div+div { margin-left: 0; } 
+ .sentence { width:100%; position: relative; top: 0; align-items: center; }
  .sentence .en { font-size: 50px; } 
- .sentence .ko { margin-left: auto; } 
+ .sentence .ko { margin: 0; } 
  .sentence .en br { display: none; } 
- .page2_wrap .info { margin-left: 50px; } 
+ .page_wrap .info { margin-left: 50px; } 
 
  .pro_list p { width: 120px; } 
  .info_list>li+li { margin-top: 20px; } 
@@ -21,7 +21,7 @@
  .s_list { width: 100%; align-items: center; } 
  .s_list>li:nth-of-type(3n) { margin-bottom:0; } 
  .s_list>li:nth-of-type(3n+1) { margin-left: 60px; } 
- .page3 article { width: 1000px; } 
+ .page_03 article { width: 1000px; } 
  .pb_list_wrap { width: 1000px; } 
  .pb_list>li { width: 1000px; } 
  .s_i_cate { right: 20px; } 
