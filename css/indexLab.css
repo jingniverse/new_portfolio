@@ -1,136 +1,43 @@
-@media all and (min-width:1024px) and (max-width:1440px){
- 
-    section>article{
-        width: 1000px;
-    }
-    .page1 p{
-        width: 800px;
-        font-size: 80px;
-        line-height:80px;
-    }
-    .page2_wrap{
-        flex-flow: wrap;
-    }
-    .page2 .pic{
-        height: 500px;
-    }
-    .page2_wrap div+div{
-        margin-left: 0;
-    }
-    .sentence{
-        width:100%;
-        top: 120px;
-    }
-    .sentence .en{
-        font-size: 50px;
-    }
-    .sentence .ko{
-        margin-left: auto;
-    }
-    .sentence .en br{
-        display: none;
-    }
-    .page2_wrap .info{
-        margin-left: 50px;
-    }
+@media all and (min-width:1024px) and (max-width:1440px) { 
+ section>article { width: 1000px; } 
+ .page1 p { width: 800px; font-size: 80px; line-height:80px; } 
+ .page2_wrap { flex-flow: wrap; } 
+ .page2 .pic { height: 500px; } 
+ .page2_wrap div+div { margin-left: 0; } 
+ .sentence { width:100%; top: 120px; } 
+ .sentence .en { font-size: 50px; } 
+ .sentence .ko { margin-left: auto; } 
+ .sentence .en br { display: none; } 
+ .page2_wrap .info { margin-left: 50px; } 
 
-    .pro_list p{
-        width: 120px;
-    }
-    .info_list>li+li{
-        margin-top: 20px;
-    }
-    .info2_list>li>p{
-        width: 120px;
-        text-align: left;
-    }
-    .info2_list{
-        display: flex;
-    }
-    .info2_list>li{
-        flex-flow: column;
-    }
-    .info2_list>li+li{
-        margin-top:0;
-        margin-left: 20px;
-    }
-    .edu_list p, .exp_list p{
-        width: 200px;
-    }
-    .skill{
-        margin-top: 70px;
-        display: flex;
-        align-items: center;
-    }
-    .s_list{
-        width: 100%;
-        align-items: center;
-    }
-    .s_list>li:nth-of-type(3n){
-        margin-bottom:0 ;
-    }
-    .s_list>li:nth-of-type(3n+1){
-        margin-left: 60px;
-    }
-    .page3 article{
-        width: 1000px;
-    }
-    .pb_list_wrap{
-        width: 1000px;
-    }
-    .pb_list>li{
-        width: 1000px;
-    }
-    .s_i_cate{
-        right: 20px;
-    }
-    .pb_link{
-        justify-content: flex-start;
-    }
-    .pb_link a{
-        padding: 5px 10px;
-        width: 100px;
-        height: 50px;
-        box-sizing: border-box;
-    }
-    .pb_link a+a{
-        margin-left: 30px;
-    }
-    .bv_list {
-        flex-flow: wrap;
-        justify-content: center;
-        margin-top: 0;
-    }
-    .bv_list li+li{
-        margin: 0;
-    }
-    .box_view .bv_list li{
-        margin: 30px;
-    }
-    .list_view table{
-        width: 1000px;
-    }
-    .popup_list li+li{
-        margin-left: 35px;
-    }
-    .popup_list li:nth-of-type(3n+1){
-        margin-left: 0;
-    }
-    .popup_list li:nth-of-type(5n){
-        margin-left:30px;
-    }
-    .card:hover .card_info{
-        width: 85%;
-    }
-  
-    .banner_list{
-        width: 1000px;
-    }
-    .card.banner{
-        width: 450px;
-        height: 225px;
-    }
-    .text_box{
-        width: 1000px;
-    }
-}
+ .pro_list p { width: 120px; } 
+ .info_list>li+li { margin-top: 20px; } 
+ .info2_list>li>p { width: 120px; text-align: left; } 
+ .info2_list { display: flex; } 
+ .info2_list>li { flex-flow: column; } 
+ .info2_list>li+li { margin-top:0; margin-left: 20px; } 
+ .edu_list p, .exp_list p { width: 200px; } 
+ .skill { margin-top: 70px; display: flex; align-items: center; } 
+ .s_list { width: 100%; align-items: center; } 
+ .s_list>li:nth-of-type(3n) { margin-bottom:0; } 
+ .s_list>li:nth-of-type(3n+1) { margin-left: 60px; } 
+ .page3 article { width: 1000px; } 
+ .pb_list_wrap { width: 1000px; } 
+ .pb_list>li { width: 1000px; } 
+ .s_i_cate { right: 20px; } 
+ .pb_link { justify-content: flex-start; } 
+ .pb_link a { padding: 5px 10px; width: 100px; height: 50px; box-sizing: border-box; } 
+ .pb_link a+a { margin-left: 30px; } 
+ .bv_list { flex-flow: wrap; justify-content: center; margin-top: 0; } 
+ .bv_list li+li { margin: 0; } 
+ .box_view .bv_list li { margin: 30px; } 
+ .list_view table { width: 1000px; } 
+ .popup_list li+li { margin-left: 35px; } 
+ .popup_list li:nth-of-type(3n+1) { margin-left: 0; } 
+ .popup_list li:nth-of-type(5n) { margin-left:30px; } 
+ .card:hover .card_info { width: 85%; } 
+ 
+ .banner_list { width: 1000px; } 
+ .card.banner { width: 450px; height: 225px; } 
+ .text_box { width: 1000px; } 
+ }
