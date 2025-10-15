@@ -93,8 +93,12 @@ header .menu_btn { display: none; position: relative; }
 .profile_list span:nth-of-type(2) { flex-grow: 1; } 
 .profile_list span.en { align-items: center; font-size: 30px; color: #20b085; } 
 
+.profile_list.list02 span { justify-content: flex-start; } 
+.profile_list.list02 > li {align-items: flex-start;}
+.profile_list.list02 > li .en { width: 150px; } 
+.profile_list.list02 > li span{ line-height: 26px; } 
 /* .certificate,.education,.experience{ display: flex;flex-flow: column;} */
-.cer_list { font-size: 20px; } 
+.cer_list { display: flex; flex-flow: column; font-size: 20px; ;}  
 .cer_list li+li { margin-top: 10px; } 
 /* 
 .info2_list>li { text-transform: capitalize; display: flex; } 
