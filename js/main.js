@@ -28,6 +28,17 @@ $(document).ready(function(){
     })
 
 
+    let dark_Status = false
+        $('.dark_m').click(function(){
+            if(dark_Status==false){
+                $('body').addClass('light')
+                dark_Status=true
+            }
+            else{
+                $('body').removeClass('light')
+                dark_Status=false
+            }        
+        })
 
 
 
