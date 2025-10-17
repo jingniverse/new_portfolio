@@ -25,18 +25,21 @@
       <span></span> 
     </div> -->
     <div class="wrap">
-        <!-- 상단 네비 -->
+        <!-- 상단 네비게이션 -->
         <header>    
+          <!-- 로고 -->
           <h1 class="logo">
             <a href="#home" title="홈 바로가기"></a>    
           </h1> 
 
+          <!-- 다크모드 버튼 -->
           <div>
             <div class="dark_m">
               <button class="mode_btn"></button>
             </div>
           </div>
-
+          
+          <!-- 상단메뉴 -->
           <nav class="top_menu">
             <ul class="menu_list">
             <li>
@@ -57,6 +60,7 @@
             </ul>
           </nav>
 
+          <!-- 모바일 메뉴 버튼 -->
           <div class="menu_btn">
             <button>
               <i class="fa-solid fa-bars"></i>
@@ -64,10 +68,11 @@
             </button>
           </div>
         </header>
+        <!-- 상단 네비게이션 끝-->
         
-        <!-- 메인 -->
+        <!-- 메인 콘텐츠 -->
         <main>
-          <!-- home -->
+          <!-- HOME 섹션 -->
           <section id="home" class="page page_01">
             <h2 class="blind">home</h2>
 
@@ -80,54 +85,65 @@
               </span>
             </article>
           </section>
-          <!-- home end-->
+          <!-- HOME 섹션 끝-->
 
-          <!-- about me -->
+          <!-- About me 섹션 -->
           <section id="aboutme" class="page page_02">
-            <h2 class="blind">introduce</h2>
+            <article>
+              <h2 class="">about me</h2>
 
-            <article class="page_wrap">
-              <p class="sentence">
+              <!-- 인용글 -->
+              <p class="quote">
                 <span class="en">Life is a Matter of<br> Direction not Speed</span>
                 <span class="ko">
                   삶은 신속한 달음보다 어디로 향하는지에 그 가치가 있다.<br>
                   목표한 방향으로 끈질기게 나아가, 인생을 의미 있게 만드는 사람이 되겠습니다
                 </span>
               </p>
-              <div class="profile pro_01">
-                <div class="pic">
-                  <img src="./img/my.png" alt="프로필 사진">
+
+              <!-- 프로필 전체 -->
+              <div class="profile">
+                <!-- 왼쪽 프로필 정보 -->
+                <div class="profile_basic">
+                  <!-- 프로필 사진 -->
+                  <div class="pro_pic">
+                    <img src="./img/my.png" alt="프로필 사진">
+                  </div>
+
+                  <!-- 기본 정보 리스트 -->
+                  <ul class="basic_list">
+                    <li>
+                      <span class="en">Name</span>
+                      <span>김영환</span>
+                    </li>
+                    <li>
+                      <span class="en">Birth</span>
+                      <span>92.12.23</span>
+                    </li>
+                    <li>
+                      <span class="en">Email</span>
+                      <span>hwanblisher@gmail.com</span>
+                    </li>
+                    <li class="certificate">
+                      <span class="en">Certificate</span>
+                      <ul>
+                        <li class="cert_list">
+                          <span>운전면허 1종 보통</span>
+                          <span>사회복지사 1급, 2급</span>
+                          <span>웹디자인기능사</span>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
                 </div>
-                <ul class="profile_list">
-                  <li>
-                    <span class="en">Name</span>
-                    <span>김영환</span>
-                  </li>
-                  <li>
-                    <span class="en">Birth</span>
-                    <span>92.12.23</span>
-                  </li>
-                  <li>
-                    <span class="en">Email</span>
-                    <span>hwanblisher@gmail.com</span>
-                  </li>
-                  <li class="certificate">
-                    <span class="en">Certificate</span>
-                    <ul>
-                      <li class="cer_list">
-                        <span>운전면허 1종 보통</span>
-                        <span>사회복지사 1급, 2급</span>
-                        <span>웹디자인기능사</span>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-              <div class="profile pro_02">
-                <h3 class="blind">profile</h3>
-                
-                <ul class="profile_list list02">
-                  <li class="education">
+
+                <!-- 오른쪽 프로필 정보  -->
+                <div class="profile_detail">
+                  <h3 class="blind">profile</h3>
+
+                  <!-- 학력 / 경력 리스트 -->
+                  <ul class="detail_list">
+                    <li class="education">
                       <span class="en">Education</span>
 
                       <ul class="edu_list">
@@ -140,9 +156,11 @@
                           <span>여주대학교 사회복지상담학과 졸업</span>
                         </li>
                       </ul>
-                  </li>
-                  <li class="experience">
+                    </li>
+
+                    <li class="experience">
                       <span class="en">Experience</span>
+                      
                       <ul class="exp_list">
                           <li>
                             <span>2024.05 ~ 2025.08</span>
@@ -157,25 +175,28 @@
                             <span>여주대학교 코디네이터</span>
                           </li>
                       </ul>
-                  </li>
-                </ul>
-                
-                <div class="skill">
+                    </li>
+                  </ul>
+
+                  <!-- 스킬 리스트 -->
+                  <div class="skills">
                     <h4 class="en">skill</h4>
                     <ul class="s_list">
-                        <li class="ps en"><span>Photoshop</span></li>
-                        <li class="il en"><span>Illustrator</span></li>
-                        <li class="jq en"><span>Jquery</span></li>
-                        <li class="js en"><span>Javascript</span></li>
-                        <li class="ht en"><span>HTML5</span></li>
-                        <li class="cs en"><span>CSS3</span></li>
-                        <li class="vs en"><span>VSCODE</span></li>
+                      <li class="ps en"><span>Photoshop</span></li>
+                      <li class="il en"><span>Illustrator</span></li>
+                      <li class="jq en"><span>Jquery</span></li>
+                      <li class="js en"><span>Javascript</span></li>
+                      <li class="ht en"><span>HTML5</span></li>
+                      <li class="cs en"><span>CSS3</span></li>
+                      <li class="vs en"><span>VSCODE</span></li>
+                      <li class="fi en"><span>Figma</span></li>
                     </ul>
+                  </div>
                 </div>
               </div>
             </article>
           </section>
-          <!-- introduce end -->
+          <!-- About me 섹션 끝 -->
 
           <!-- publishing -->
           <section id="publishing" class="page page_03">
